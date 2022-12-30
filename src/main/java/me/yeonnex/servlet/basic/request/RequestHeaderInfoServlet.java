@@ -1,4 +1,4 @@
-package me.yeonnex.servlet.basic;
+package me.yeonnex.servlet.basic.request;
 
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
