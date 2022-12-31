@@ -9,5 +9,5 @@ import lombok.ToString;
 @ToString
 public class HelloData {
     private String username;
-    private String age;
+    private Integer age;
 }
