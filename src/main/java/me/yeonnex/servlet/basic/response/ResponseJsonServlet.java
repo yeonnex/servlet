@@ -14,6 +14,7 @@ import java.io.IOException;
 @RequiredArgsConstructor
 public class ResponseJsonServlet extends HttpServlet {
     private final ObjectMapper objectMapper;
+
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         resp.setContentType("application/json");
