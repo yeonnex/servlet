@@ -13,8 +13,8 @@
 <body>
 <p>성공</p>
 <ul>
-    <li>id=<${member.id}</li>
-    <li>username=${member.username}></li>
+    <li>id=${member.id}</li>
+    <li>username=${member.username}</li>
     <li>age=${member.age}</li>
 </ul>
 </body>
